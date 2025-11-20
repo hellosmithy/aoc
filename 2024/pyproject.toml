@@ -1,7 +1,15 @@
 [project]
-name = "2024"
+name = "AOC2024"
 version = "0.1.0"
 description = "AOC 2024 exercises using Python"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = []
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.1",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]

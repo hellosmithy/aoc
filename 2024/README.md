@@ -1,3 +1,3 @@
 ```
-uv run days/1.py
+uv run src/day_1.py
 ```
