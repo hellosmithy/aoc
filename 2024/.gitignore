@@ -1,0 +1,4 @@
+.mypy_cache.json
+.mypy_cache/
+.venv/
+.ruff_cache/
